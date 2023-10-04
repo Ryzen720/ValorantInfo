@@ -30,13 +30,14 @@ function fetchData() {
     const runSpeedMultiplier = document.getElementById("runSpeedMultiplier");
     const equipTimeSeconds = document.getElementById("equipTimeSeconds");
     const firstBulletAccuracy = document.getElementById("firstBulletAccuracy");
+    const canBeTrashed = document.getElementById("canBeTrashed");
 
     const endpoint = "https://valorant-api.com/v1/weapons";
     fetch(endpoint)
         .then(res => res.json())
         .then(dados => {
 
-            console.log(weaponID);
+            
             console.log(dados);
 
             displayIcon.src = dados.data[weaponID].displayIcon;
@@ -58,6 +59,10 @@ function fetchData() {
             equipTimeSeconds.innerText = dados.data[weaponID].weaponStats.equipTimeSeconds;
 
             firstBulletAccuracy.innerText = dados.data[weaponID].weaponStats.firstBulletAccuracy;
+
+            canBeTrashed.innerText = dados.data[weaponID].shopData.canBeTrashed;
+
+
 
         })
 
