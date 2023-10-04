@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Guilherme Marta">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de informações de armas do jogo Valorant">
+    <meta name="keywords" content="Valorant, Info, ValorantInfo, Weapon, Stats, Guns, ValorantInfo, Armas">
+    <link rel="shortcut icon" href="assets/valoranticon.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SiteAPI</title>
+</head>
+<body>
+    <header>
+        <h1>Valorant<h1 id="info">info</h1></h1>
+    </header>
+
+    <main>
+        <section class="secao1">
+            
+            <video class="video-background" autoplay loop >
+                <source src="assets/backgroundvideo.mp4" type="video/mp4">
+                    ERRO : Video não suportado
+            </video>
+
+            <h5>VALORANTINFO - YOUR BEST WEAPON STATS SOURCE</h5>
+            
+        </section>
+
+        <div class="secao2">
+
+
+            <div class="cabecalhosecao02">
+                <button class="botoesupdown" id="contadorBtnDown"> < </button>
+                <h2 id="displayname"></h2>
+                <button class="botoesupdown"  id="contadorBtnUp"> > </button>
+            </div>
+
+
+            <img id="displayIcon" src="#" alt="Carregando...">
+
+            <div class="informacoes">
+
+                <div class="info01">
+                    <h2 class="info-title">STATS</h2>
+                    <h3>GUN NAME</h3>
+                        <p class="api-text" id="displayname02">Carregando...</p>
+                    <h3>CATEGORY</h3>
+                        <p class="api-text" id="category">Carregando...</p>
+                    <h3>IN GAME COST</h3>
+                        <p class="api-text" id="cost">Carregando...</p>
+                    
+                </div>
+
+                <div class="info02">
+                    <h2 class="info-title">NERD STATS</h2>
+                    <h3>Fire Rate</h3>
+                    <p class="api-text" id="fireRate">Carregando...</p>
+                    <h3>Reload Time in Seconds</h3>
+                    <p class="api-text" id="reloadTime">Carregando...</p>
+                    <h3>Run Speed Multiplier</h3>
+                    <p class="api-text" id="runSpeedMultiplier">Carregando...</p>
+                    <h3>Equip Time Seconds</h3>
+                    <p class="api-text" id="equipTimeSeconds">Carregando...</p>
+                    <h3>First Bullet Accuracy</h3>
+                    <p class="api-text" id="firstBulletAccuracy">Carregando...</p>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    
+<script src="index.js"></script>
+</body>
+<footer>
+    <p>© 2023 ValorantInfo Ltda.  All Rights Reserved.
+    </p>
+</footer>
+
+
+
+
+</html>

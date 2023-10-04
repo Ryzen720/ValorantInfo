@@ -1,0 +1,216 @@
+@import url('https://fonts.cdnfonts.com/css/valorant?styles=64778');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'VALORANT', sans-serif;
+    overflow-x: hidden;
+    
+   
+}
+header{
+    border: 2px solid black; 
+    padding: 15px;
+    background-color: rgb(42, 39, 47);
+    display: flex;
+    justify-content: center;
+}
+#info{
+    color: white;
+}
+h1{
+    color: rgb(255, 70, 84);
+    
+                                                
+}
+h5{
+    color: white;
+    
+    
+}
+
+.secao1{
+   
+    width: 100%;
+    text-align: center;
+    overflow: hidden;   
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.secao1 h5 {
+    position: absolute;
+    top: 75%;
+    font-size: 3vw;
+    width: 60%;
+    box-shadow: red;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    
+}
+
+
+
+
+
+
+
+
+
+.secao2{
+    padding-top: 3vw;
+    text-align: center;
+    background-color: #BD3944;
+}
+.cabecalhosecao02{
+    margin-top: 4vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+}
+.botoesupdown{
+    width: 4vw;
+    border-radius: 10px;
+    padding: 2vh;
+    
+}
+#contadorBtnDown{
+    margin-right: 2vw;
+}
+#contadorBtnUp{
+    margin-left: 2vw;
+}
+
+
+
+.informacoes{
+    display: flex;
+    flex-wrap: wrap
+}
+.info-title{
+    margin: 1vw;
+    font-size: 2vw;
+    text-decoration: underline;
+    color: white;
+    
+}
+.info01{
+    padding-bottom: 1vw;
+    width: 50%;
+    padding: 2vw;
+}
+h2{
+    font-size: 3vw;
+}
+#displayname{
+    color: white;
+    text-decoration: underline;
+    
+}
+h3{
+    font-size: larger;
+    color: white;
+   margin-bottom: 1vw;
+}
+.info01,p{
+    margin-bottom: 1vw;
+}
+.api-text{
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+}
+#displayIcon{
+    padding: 50px;
+    border-radius: 15px;
+    border: solid rgb(120,40, 60);
+    width: 40%;
+    background-color: wheat;
+}
+
+
+
+.info02{
+   padding: 2vw;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(42, 39, 47);
+    text-align: center;
+    padding: 2vw;
+}
+footer,p{
+    color: white;
+}
+
+/* Responsivo */
+
+@media (max-width: 768px) {
+
+
+
+
+header h1 {
+    font-size: 5vw;
+}
+
+.secao1 h5{
+    font-size: 4vw;
+}
+
+
+.secao2 h2 {
+    font-size: 6vw;
+    margin-top: 15px;
+}
+
+#displayIcon{
+    
+    padding: 25px;
+    width: 90%;
+   
+}
+
+
+
+.informacoes{
+    display: block;
+    
+}
+
+.info01{
+    width: 100%;
+}
+
+.info02{
+    width: 100%;
+}
+
+
+
+
+
+
+
+}
